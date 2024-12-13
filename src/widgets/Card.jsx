@@ -1,8 +1,11 @@
+import classes from './Card.module.css';
+
+
 function Card() {
     return (
-        <div>
-            <p>João</p>
-            <p>React JS is awesome!</p>
+        <div className={classes.cardBackground}>
+            <div className={classes.card}>
+            </div>
         </div>
     );
 }

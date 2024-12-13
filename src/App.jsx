@@ -10,6 +10,7 @@
 // import { useAuthenticator } from "@aws-amplify/ui-react";
 // import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
+import Card from "./widgets/Card";
 // import { generateClient } from "aws-amplify/data";
 // import outputs from "../amplify_outputs.json";
 /**
@@ -22,7 +23,9 @@ import "@aws-amplify/ui-react/styles.css";
 // });
 
 function App() {
-    return <h1>Hello World!</h1>;
+    return <>
+        <Card />;
+    </>
 }
 
 export default App;
