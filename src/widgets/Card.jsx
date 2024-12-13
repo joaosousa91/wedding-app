@@ -5,6 +5,7 @@ function Card() {
     return (
         <div className={classes.cardBackground}>
             <div className={classes.card}>
+
             </div>
         </div>
     );

@@ -24,7 +24,7 @@ import Card from "./widgets/Card";
 
 function App() {
     return <>
-        <Card />;
+        <Card />
     </>
 }
 

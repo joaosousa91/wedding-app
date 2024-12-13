@@ -1,22 +1,12 @@
 .card {
     border: 1px solid #fff;
     border-radius: 8px;
-    min-height: 680px;
+    min-height: 671px;
 }
 
 .cardBackground{
-    background: url("src/assets/Home3.png") no-repeat center;
+    background: url("src/assets/Home3.png") no-repeat;
     min-height: 695px;
     padding: 12px;
-}
-
-@keyframes animate-in {
-    from {
-        opacity: 0;
-        transform: translateY(1rem);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    margin: 0;
 }
