@@ -5,7 +5,7 @@
 }
 
 .cardBackground{
-    background: url("src/assets/Home3.png") no-repeat;
+    background: url("/assets/Home3.png") no-repeat;
     min-height: 695px;
     padding: 12px;
     margin: 0;
