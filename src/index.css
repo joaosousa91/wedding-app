@@ -1,16 +1,10 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  /*font-family: "libre Baskerville", serif;*/
+  font-family: "Jost", serif;
+  color: floralwhite;
   font-weight: 400;
   background-color: #20533C;
-  color: rgba(0, 0, 0, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  max-width: 1280px;
   margin: 0;
 }
 

@@ -11,6 +11,9 @@
 // import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
 import Card from "./widgets/Card";
+import Countdown from "./widgets/Countdown"
+import Separator from "./widgets/Separator";
+import Local from "./widgets/Local"
 // import { generateClient } from "aws-amplify/data";
 // import outputs from "../amplify_outputs.json";
 /**
@@ -25,6 +28,9 @@ import Card from "./widgets/Card";
 function App() {
     return <>
         <Card />
+        <Countdown />
+        <Separator />
+        <Local />
     </>
 }
 
